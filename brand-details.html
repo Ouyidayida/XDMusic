@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>品牌详情</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Favicons -->
+	<link href="./assets/img/favicon.ico" rel="icon">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="./assets/vendor/zoomio/zoomio.css" rel="stylesheet">
+	<!-- Main CSS File -->
+	<link href="./assets/css/main.css" rel="stylesheet">
+	<style>
+		.sampleimage {
+			width: 100%;
+		}
+
+		.swiper-slide {
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body class="product-details-page">
+
+	<header id="header" class="header d-flex align-items-center">
+		<div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+			<a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+				<img src="./assets/img/logo_w.png" alt="" width="120">
+				<!-- <h1 class="sitename"></h1> -->
+			</a>
+
+			<nav id="navmenu" class="navmenu">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="brands.html" class="active">品牌</a></li>
+					<li><a href="news.html">新闻</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="dealer.html">经销商</a></li>
+					<li><a href="service.html">服务与支持</a></li>
+				</ul>
+				<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+			</nav>
+
+			<a class="btn-lang" href="javascript:;">En</a>
+
+		</div>
+	</header>
+
+	<main class="main">
+
+		<!-- Page Title -->
+		<div class="page-title">
+			<!-- <nav class="breadcrumbs">
+				<div class="container">
+					<ol>
+						<li><a href="index.html">Home</a></li>
+						<li class="current">Product Details</li>
+					</ol>
+				</div>
+			</nav> -->
+			<div class="heading p-5">
+				<div class="container">
+					<div class="row d-flex justify-content-center text-center">
+						<div class="col-lg-8">
+							<h1>Warwick Gnome - 口袋低音放大器头，200 瓦</h1>
+							<p class="mb-0">
+								Warwick Gnome 贝斯放大器头为贝斯手提供清晰、明确的声音和令人印象深刻的性能 - 所有这些都采用超紧凑、轻巧的设计，可轻松放入您的口袋！ Gnome
+								功放的开发旨在为初学者、要求严格的音乐家和经验丰富的专业人士提供价格合理、性能可靠的放大器，该功放具有令人印象深刻的超便携、轻量化设计，并且其透明、清脆的声音和低噪音运行完全可以满足您的需求。每个频段具有
+								+/- 15 dB 削减/增强的 3 频段均衡器提供了多种根据您自己的想法塑造声音的选项，并且带有可切换接地升降的平衡后 EQ XLR DI 输出意味着 Warwick Gnome
+								可轻松用于现场操作或工作室中。耳机插孔还提供了使用放大器进行静音练习的可能性。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- End Page Title -->
+
+		<!-- Product Details Section -->
+		<section class="product-details section">
+			<div class="container" data-aos-delay="100">
+				<div class=" mb-lg-5">
+					<div class="zoom-container">
+						<img class="sampleimage" src="./assets/img/GNOME.jpg" />
+					</div>
+					<ul class="product-info product-base-info">
+						<li>color: <span class="color-item"></span></li>
+						<li><strong>Name: <span>ABC</span></strong></li>
+					</ul>
+				</div>
+				<div class="clients">
+					<div class="container" data-aos-delay="100">
+
+						<div class="swiper init-swiper">
+							<script type="application/json" class="swiper-config">
+							{
+								"loop": true,
+								"speed": 600,
+								"autoplay": {
+									"delay": 5000
+								},
+								"slidesPerView": "auto",
+								"pagination": {
+									"el": ".swiper-pagination",
+									"type": "bullets",
+									"clickable": true
+								},
+								"breakpoints": {
+									"320": {
+										"slidesPerView": 2,
+										"spaceBetween": 40
+									}
+									,
+									"480": {
+										"slidesPerView": 3,
+										"spaceBetween": 60
+									}
+									,
+									"640": {
+										"slidesPerView": 4,
+										"spaceBetween": 80
+									}
+									
+								}
+							}
+						</script>
+							<div class="swiper-wrapper align-items-center pro-imgs">
+								<div class="swiper-slide"><img src="./assets/img/GNOME-1.jpg" class="img-fluid" alt=""></div>
+								<div class="swiper-slide"><img src="./assets/img/GNOME-2.jpg" class="img-fluid" alt=""></div>
+								<div class="swiper-slide"><img src="./assets/img/GNOME-3.jpg" class="img-fluid" alt=""></div>
+								<div class="swiper-slide"><img src="./assets/img/GNOME-4.jpg" class="img-fluid" alt=""></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- /Product Details Section -->
+
+		<!-- Spec Section -->
+		<section class="product-details section">
+			<div class="container section-title">
+				<span>规格</span>
+				<h2>规格</h2>
+				<div class="title-shape">
+					<svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+						<path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+							stroke-width="2"></path>
+					</svg>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row product-intro">
+					<!-- part1 -->
+					<div class="col-lg-6 product-intro-item">
+						<div class="product-info">
+							<h3>Project information</h3>
+							<ul>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输⼊接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输出接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗100 Ohms)</span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">⼯作电压</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>9V DC 内负外正(切勿使⽤超过9V或极性相反的电源适配器) </span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输⼊接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输出接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗100 Ohms)</span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">⼯作电压</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>9V DC 内负外正(切勿使⽤超过9V或极性相反的电源适配器) </span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- part2 -->
+					<div class="col-lg-6 product-intro-item">
+						<div class="product-info">
+							<h3>Project information</h3>
+							<ul>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输⼊接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输出接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗100 Ohms)</span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">⼯作电压</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>9V DC 内负外正(切勿使⽤超过9V或极性相反的电源适配器) </span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- part3 -->
+					<div class="col-lg-6 product-intro-item">
+						<div class="product-info">
+							<h3>Project information</h3>
+							<figure>
+								<img src="./assets/img/2.jpg" alt="">
+							</figure>
+							<div class="d-flex">
+								<p class="flex-lg-fill">描述</p>
+								<div class="icon arrow-icon" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+									aria-expanded="false" aria-controls="collapseExample">
+									<i class="bi bi-chevron-compact-down"></i>
+								</div>
+							</div>
+							<div class="collapse" id="collapseExample">
+								<div class="card card-body">
+									Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+									the user activates the relevant trigger.
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- part4 -->
+					<div class="col-lg-6 product-intro-item">
+						<div class="product-info">
+							<h3>Project information</h3>
+							<figure>
+								<img src="./assets/img/en-fs0x.jpg" alt="">
+							</figure>
+							<div class="d-flex">
+								<p class="flex-lg-fill">描述</p>
+								<div class="icon arrow-icon" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+									aria-expanded="false" aria-controls="collapseExample1">
+									<i class="bi bi-chevron-compact-down"></i>
+								</div>
+							</div>
+							<div class="collapse" id="collapseExample1">
+								<div class="card card-body">
+									Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+									the user activates the relevant trigger.
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- part5 -->
+					<div class="col-lg-6 product-intro-item">
+						<div class="product-info">
+							<h3>其他</h3>
+							<ul>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输⼊接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+										<span>1个1/4"单声道接口(阻抗4.7M Ohms) </span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">输出接⼝</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>1个1/4"单声道接口(阻抗100 Ohms)</span>
+									</div>
+								</li>
+								<li class="row">
+									<div class="col-lg-3 col-md-4 col-sm-12">⼯作电压</div>
+									<div class="col-lg-9 col-md-8 col-sm-12">
+										<span>9V DC 内负外正(切勿使⽤超过9V或极性相反的电源适配器) </span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- /Spec Section -->
+
+		<!-- Feature Section -->
+		<section class="product-details feature section">
+			<div class="container section-title">
+				<span>特点</span>
+				<h2>特点</h2>
+				<div class="title-shape">
+					<svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+						<path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+							stroke-width="2"></path>
+					</svg>
+				</div>
+			</div>
+			<ul class="container features-list">
+				<li class="product-info">
+					<div class="row">
+						<div class="col-lg-7 ">
+							<h4 class="mb-3">Voluptatem dignissimos provident quasi</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Duis aute irure dolor in reprehenderit
+							</p>
+						</div>
+						<div class="col-lg-5">
+							<img src="./assets/img/2.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+				</li>
+				<li class="product-info">
+					<div class="row">
+						<div class="col-lg-7 ">
+							<h4 class="mb-3">Voluptatem dignissimos provident quasi</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Duis aute irure dolor in reprehenderit
+							</p>
+						</div>
+						<div class="col-lg-5">
+							<img src="./assets/img/2.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section><!-- /Feature Section -->
+	</main>
+
+	<footer id="footer" class="footer dark-background">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row footer-list">
+					<div class="col-lg-2 col-md-2 footer-links">
+						<h4>相关链接</h4>
+						<ul>
+							<li><a href="https://flammainnovation.com/" class="active">FLAMMA官方网站<br></a></li>
+							<li><a href="https://www.w-distribution.de/en/">Warwick官方网站</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-2 footer-links">
+						<h4>相关信息</h4>
+						<ul>
+							<li><a href="about.html" class="active">公司介绍<br></a></li>
+							<li><a href="brands.html">经销商查询</a></li>
+							<li><a href="service.html">服务与支持</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 footer-links">
+						<h4>联系我们</h4>
+						<div class="footer-contact">
+							<p><i class="bi bi-telephone flex-shrink-0"></i><span>+86 18601789992</span></p>
+							<p><i class="bi bi-envelope flex-shrink-0"></i><span>jimwang@xdmusic.shop</span></p>
+							<p><i class="bi bi-geo-alt flex-shrink-0"></i><span>上海市浦东新区成山路800号云顶广场A座1505室</span></p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 footer-about">
+						<a href="index.html" class="logo d-flex align-items-center">
+							<span class="sitename"></span>
+							<img src="././assets/img/logo_w.png" alt="" srcset="" width="100">
+						</a>
+						<div class="social-links d-flex mt-4">
+							<img src="./assets/img/foot_wechat.png" alt="" srcset="">
+							<img src="./assets/img/foot_weibo.png" alt="" srcset="">
+							<img src="./assets/img/foot_bilibili.png" alt="" srcset="">
+							<img src="./assets/img/foot_wechat.png" alt="" srcset="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="copyright text-center">
+				<p>© <span>Copyright</span> <strong class="px-1 sitename"></strong> <span>All Rights Reserved</span></p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scroll Top -->
+	<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<!-- Preloader -->
+	<div id="preloader"></div>
+	<!-- 模态框 -->
+	<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<!-- <h5 class="modal-title" id="imageModalLabel">图片预览</h5> -->
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center">
+					<img id="modalImage" src="" class="img-fluid" alt="放大图片">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Vendor JS Files -->
+	<script src="./assets/vendor/jquery/jquery.min.js"></script>
+	<script src="./assets/vendor/zoomio/zoomio.js"></script>
+	<script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/vendor/aos/aos.js"></script>
+	<script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="./assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<!-- Main JS File -->
+	<script src="./assets/js/main.js"></script>
+	<script>
+		jQuery(function ($) {
+			$('.sampleimage').zoomio({})
+		})
+
+		$(".pro-imgs .swiper-slide img").on("click", function () {
+			$("#modalImage").attr("src", $(this).attr("src"));
+			$("#imageModal").modal("show");
+		});
+		$('.arrow-icon').click(function () {
+			let icon = $(this).find("i");
+			icon.fadeOut(150, function () {
+				if (icon.hasClass("bi-chevron-compact-down")) {
+					icon.removeClass("bi-chevron-compact-down").addClass("bi-chevron-compact-up");
+				} else {
+					icon.removeClass("bi-chevron-compact-up").addClass("bi-chevron-compact-down");
+				}
+				icon.fadeIn(150);
+			});
+		});
+	</script>
+</body>
+
+</html>
